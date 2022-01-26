@@ -1,0 +1,14 @@
+#This will learn me how to use strings and how to input a value into text
+
+adj = input("Adjective:")
+verb1 = input("erb: ")
+verb2 = input("erb: ")
+place = input("Place: ")
+#Input will ask user for value
+
+text = f"My life is so {adj}. Whole day I can only to {verb1}. And at the end of every day I need \
+to {verb2}. I wish I were in {place}."
+
+#using f"..." let me making concatenations, that meas inserting desired value in the round brackets {}.
+
+print(text)
